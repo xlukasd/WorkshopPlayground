@@ -1,6 +1,6 @@
 namespace Tasks.API
 {
-    public class WeatherForecast
+    public class TaskItem
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;

@@ -1,0 +1,1 @@
+Tests for .NET Core API controllers must be integration tests using Microsoft.AspNetCore.Mvc.Testing nuget, and using NUnit.
