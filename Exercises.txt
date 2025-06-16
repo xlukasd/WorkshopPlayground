@@ -1,0 +1,80 @@
+#slash_Explanation_SQL
+File: SqlScript.Sql
+Task: Find out, what is the purpose of the script.
+
+#slash_Optimize_SQL
+File: CoursePersistance.cs
+Task: Find out, how you could optimize the code in Persist method
+
+#generation_api
+Task: Generate simple Web API having just one endpoint, which accepts string and returns reversed one.
+
+#refactoring_CodeStyle
+File: TaskController.cs
+Task: Ensuere, that there is no statement without brackets
+
+#refactoring_StopWatch
+File: TaskController.cs
+Task: Ensure, that every endpoint is logged 
+
+#refactoring_ApiInformation
+File: TaskController.cs
+Task: Ensure, that every endpoint is marked with proper ProducesResponseType attributes
+
+#refactoring_finding_duplicate_code
+File: UserCrudExecutor.cs
+Task: Refactor the methods so that common code is extracted
+
+#refactoring_solid_d
+File: UserController.cs
+Task: Refactor the methods so that this class adheres to the 'D' principle from SOLID
+
+#refactoring_getQueryWithStandardSql
+File:
+Task:
+
+#refactoring_CQRS
+File: UserCrudExecutor.cs
+Task: Move 'Command' methods to 'UserCommandRepository.cs' file, and 'Query' methods to 'UserQueryRepository.cs' file.
+
+#refactoring_code_language_change
+Task: Convert the API created in #generation_api exercise into other language (Python, Typescript...)
+
+#tests_generation_UnitTests
+Task: Create unit-tests for 'UserMapper.cs' class
+
+#tests_generation_TestCases
+Task:
+
+#tests_generation_StubGeneration
+Task: Create stub implementation of 'UserRepository.cs' class
+
+#tests_failingTest_explanation
+File:
+Task:
+
+#tests_failingTest_debugging
+File:
+Task:
+
+#context_Quote_GivenExample
+Task: Fetch quote of the day from 'https://favqs.com/api/qotd' and show Author, Quote, and clicable link to quote website.
+
+#context_SearchAlgorithms
+Task: Implement the algorithm 
+
+#customInstructions_chat_testCreation
+File: TaskController.cs
+Task: Generate proper tests for this controller
+
+#customInstructions_chat_httpRequest
+Task: Create simple HTML showing the quote from 'https://zenquotes.io/api/today'. Ensure, that there is proper retry policy for the HTTP call.
+
+
+#customInstructions_commitMessage
+File:
+Task:
+
+
+#agentMode_CreatingWebsite
+Task:

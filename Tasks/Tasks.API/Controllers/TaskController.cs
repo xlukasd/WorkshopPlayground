@@ -1,9 +1,8 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Tasks.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("[controller]")]
     public class TaskController : ControllerBase
@@ -24,10 +23,8 @@ namespace Tasks.API.Controllers
         public ActionResult<TaskItem> GetById(int id)
         {
             var task = Tasks.FirstOrDefault(t => t.Id == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
+            if (task == null) return NotFound();
+
             return task;
         }
 
@@ -43,10 +40,9 @@ namespace Tasks.API.Controllers
         public IActionResult Update(int id, TaskItem updatedTask)
         {
             var task = Tasks.FirstOrDefault(t => t.Id == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
+
+            if (task == null) return NotFound();
+
             task.Title = updatedTask.Title;
             task.Description = updatedTask.Description;
             task.DueDate = updatedTask.DueDate;
@@ -58,10 +54,8 @@ namespace Tasks.API.Controllers
         public IActionResult Delete(int id)
         {
             var task = Tasks.FirstOrDefault(t => t.Id == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
+            if (task == null) return NotFound();
+
             Tasks.Remove(task);
             return NoContent();
         }

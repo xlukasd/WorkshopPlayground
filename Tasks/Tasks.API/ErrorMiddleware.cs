@@ -3,9 +3,16 @@ namespace Tasks.API
 {
     public class ErrorMiddleware : IMiddleware
     {
-        public Task InvokeAsync(HttpContext context, RequestDelegate next)
+        public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-            return next(context);
+            try
+            {
+                await next(context);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }
