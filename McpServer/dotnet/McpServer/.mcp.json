@@ -1,0 +1,20 @@
+{
+        "inputs": [],
+        "servers": {
+            "SqlColumnsList": {
+                "type": "stdio",
+                "command": "dotnet",
+                "args": [
+                    "run",
+                    "--project",
+                    "C:\\Users\\lukas.durovsky\\Desktop\\Personal\\Talks\\Copilot\\SqlAccessMcp\\SqlAccessMcp\\McpSqlTools\\McpSqlTools.csproj"
+                ]
+            },
+            "NodeMcpServer": {
+      "command": "node",
+      "args": [
+        "C:/Users/lukas.durovsky/Desktop/temp/mcp-server2/build/index.js"
+      ]
+    }
+        }
+    }

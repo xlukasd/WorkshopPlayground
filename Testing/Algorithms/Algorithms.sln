@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Library", "Algorithms.Library\Algorithms.Library.csproj", "{7D4EAF27-2AB6-4E45-A5CA-CA930CACD163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Library.Tests", "Algorithms.Library.Tests\Algorithms.Library.Tests.csproj", "{E2F4F54E-8432-4C54-A1BA-06FABDF9DEE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4EAF27-2AB6-4E45-A5CA-CA930CACD163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4EAF27-2AB6-4E45-A5CA-CA930CACD163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4EAF27-2AB6-4E45-A5CA-CA930CACD163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4EAF27-2AB6-4E45-A5CA-CA930CACD163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F4F54E-8432-4C54-A1BA-06FABDF9DEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F4F54E-8432-4C54-A1BA-06FABDF9DEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F4F54E-8432-4C54-A1BA-06FABDF9DEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F4F54E-8432-4C54-A1BA-06FABDF9DEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B21FE96-8460-4F85-A85D-3D6289A8887F}
+	EndGlobalSection
+EndGlobal

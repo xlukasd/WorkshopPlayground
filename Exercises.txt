@@ -9,6 +9,9 @@ Task: Find out, how you could optimize the code in Persist method
 #generation_api
 Task: Generate simple Web API having just one endpoint, which accepts string and returns reversed one.
 
+#variables_McpTools
+Task: Get the list of all MCP tools, which are available in McpServer folder (files 'index.ts', 'SqlAccessTool.cs').
+
 #refactoring_CodeStyle
 File: TaskController.cs
 Task: Ensuere, that there is no statement without brackets
@@ -29,10 +32,6 @@ Task: Refactor the methods so that common code is extracted
 File: UserController.cs
 Task: Refactor the methods so that this class adheres to the 'D' principle from SOLID
 
-#refactoring_getQueryWithStandardSql
-File:
-Task:
-
 #refactoring_CQRS
 File: UserCrudExecutor.cs
 Task: Move 'Command' methods to 'UserCommandRepository.cs' file, and 'Query' methods to 'UserQueryRepository.cs' file.
@@ -44,18 +43,14 @@ Task: Convert the API created in #generation_api exercise into other language (P
 Task: Create unit-tests for 'UserMapper.cs' class
 
 #tests_generation_TestCases
-Task:
+Task: Generate unit-tests for algorithms in StringAlgorithms.cs
 
 #tests_generation_StubGeneration
 Task: Create stub implementation of 'UserRepository.cs' class
 
 #tests_failingTest_explanation
-File:
-Task:
-
-#tests_failingTest_debugging
-File:
-Task:
+File: StringAlgorithmsTests.cs
+Task: Run the test and find out, why it is failing. 
 
 #context_Quote_GivenExample
 Task: Fetch quote of the day from 'https://favqs.com/api/qotd' and show Author, Quote, and clicable link to quote website.
@@ -70,11 +65,12 @@ Task: Generate proper tests for this controller
 #customInstructions_chat_httpRequest
 Task: Create simple HTML showing the quote from 'https://zenquotes.io/api/today'. Ensure, that there is proper retry policy for the HTTP call.
 
-
-#customInstructions_commitMessage
-File:
-Task:
-
+#agentMode_RefactorMcpServer
+File: McpServer/ts/src/index.ts
+Task: Refactor this Typescript code so that execution of every MCP tool is in separate file.
 
 #agentMode_CreatingWebsite
-Task:
+Task: Create simple website, that shows the quote of the day (from https://favqs.com/api/qotd). User can also like or dislike the quote. Number of likes & dislikes is stored in whatever store.
+
+#codeReview_ChangesInRepository
+Task: Let Copilot review all the changes you made during this workshop.

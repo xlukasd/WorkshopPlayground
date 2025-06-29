@@ -6,7 +6,7 @@
         {
             var startingString = "Hello, World!";
             var toAppend = " Welcome to performance analysis.";
-            var iterations = 1000000;
+            var iterations = 50000;
 
             for (int i = 0; i < iterations; i++)
             {

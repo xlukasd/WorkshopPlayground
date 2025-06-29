@@ -8,7 +8,7 @@
             //ThrownExceptionAnalysis.Execute();
 
             // #demo_debugging_PerformanceAnalysis
-            //PerformanceAnalysis.Execute();
+            PerformanceAnalysis.Execute();
         }
     }
 }
